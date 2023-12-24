@@ -8,9 +8,55 @@ a:hover{
 	color:#F00;
 }
 
-#menu {width:500px; height:28px; margin:0 auto; border-bottom:3px solid #E10001;}
+#menu {width:480px; height:28px; margin:0 auto; border-bottom:3px solid #E10001;}
 #menu ul {list-style:none; margin:0px; padding:0px;}
 #menu ul li {float:left; margin-left:4px;}
 #menu ul li a {display:block; width:87px; height:28px; line-height:28px; text-align:center; background:url(123.jpg) 0 -28px no-repeat; font-size:14px;}
 #menu ul li a:hover {background:url(123.jpg) 0 -56px no-repeat;}
 #menu ul li a.current {background:url(123.jpg) 0 0 no-repeat; font-weight:bold; color:#fff;}
+
+/*
+
+Body样式设置
+
+font-family:Verdana: 设置整个页面的默认字体为Verdana，这是一种干净、易读的无衬线字体。
+font-size:12px: 设置页面的默认字体大小为12像素。
+line-height:1.5: 设置行高为字体大小的1.5倍，提高文本的可读性。
+超链接 (a) 样式设置
+
+color:#000: 设置所有超链接的默认颜色为黑色。
+text-decoration:none: 移除超链接的下划线，使链接看起来更整洁。
+超链接悬停 (a:hover) 效果
+
+color:#F00: 当鼠标悬停在链接上时，链接颜色变为红色（#F00），这增加了用户交互的可见性。
+导航菜单 (#menu) 样式
+
+width:500px; height:28px;: 设置导航菜单的宽度为500像素，高度为28像素。
+margin:0 auto: 设置垂直边距为0，水平边距自动调整，实现水平居中。
+border-bottom:3px solid #E10001: 底部添加3像素高的实线边框，颜色为深红色。
+菜单列表 (#menu ul) 样式
+
+list-style:none: 移除默认的列表项目符号（如圆点）。
+margin:0px; padding:0px;: 移除默认的边距和内边距，使列表更紧凑。
+列表项 (#menu ul li) 样式
+
+float:left: 使列表项在水平方向上排列。
+margin-left:4px;: 设置列表项之间的左边距为4像素，增加间隔。
+列表项中的链接 (#menu ul li a) 样式
+
+display:block: 将链接元素设置为块级元素，使之占据整个指定的宽度和高度。
+width:87px; height:28px;: 设置链接的宽度和高度。
+line-height:28px;: 设置行高与高度相同，使文字垂直居中。
+text-align:center: 文字水平居中。
+background:url(123.jpg) 0 -28px no-repeat;: 设置背景图像，不重复显示，图像位置调整为水平不变，垂直向上偏移28像素。
+font-size:14px;: 设置字体大小为14像素。
+列表项中链接的悬停效果 (#menu ul li a:hover)
+
+background:url(123.jpg) 0 -56px no-repeat;: 在悬停状态下改变背景图像的位置，创建视觉变化。
+当前活动链接 (#menu ul li a.current) 样式
+
+background:url(123.jpg) 0 0 no-repeat;: 设置特定的背景图像位置。
+font-weight:bold;: 加粗字体，突出当前选中的链接。
+color:#fff;: 将字体颜色设置为白色，与其他链接区分。
+
+*/
